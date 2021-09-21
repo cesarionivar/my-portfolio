@@ -1,0 +1,14 @@
+.title {
+  background-color: #0099ff;
+  color: white;
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  text-align: center;
+}
+
+.banner {
+  margin-top: 10px;
+  text-align:  center;
+}
