@@ -16,3 +16,55 @@ body {
   margin: 0 auto;
 }
 
+
+/* ==== 404 Page ==== */
+.noMatch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.noMatch img {
+  width: 400px;
+}
+
+.noMatch h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: #272b2b;
+}
+
+.btn-back {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem;
+  background-color: #0098BC;
+  border-radius: 30px;
+  color: white;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.btn-back:hover {
+  background-color: #0099bcce;
+}
+
+@media only screen and (max-width: 450px) {
+  .noMatch img {
+    width: 200px;
+  }
+
+  .noMatch h2 {
+    font-size: 1.2rem;
+  }
+
+  .btn-back {
+    font-size: 1rem;
+  }
+}
