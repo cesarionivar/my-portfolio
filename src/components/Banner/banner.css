@@ -1,6 +1,6 @@
 .title {
-  background-color: #0099ff;
-  color: white;
+  /* background-color: #0099ff; */
+  /* color: ; */
   display: inline-block;
   font-size: 2rem;
   margin-bottom: 20px;
@@ -9,6 +9,31 @@
 }
 
 .banner {
-  margin-top: 10px;
+  margin: 40px 0px;
   text-align:  center;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0099ff;
+  padding: 2rem;
+  text-align: center;
+  height: 200px;
+  font-size: 1.7rem;
+  color: white;
+}
+
+.description {
+  font-size: 1.5rem;
 }
