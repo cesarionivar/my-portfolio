@@ -6,7 +6,7 @@ export const About = () => {
   return (
     <div>
       <Navbar />
-      <div className='about'></div>
+      <div className='about page'></div>
       <Footer />
     </div>
   );

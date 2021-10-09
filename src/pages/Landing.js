@@ -7,7 +7,7 @@ import { Resume } from '../components/Resume/Resume';
 
 export const Landing = () => {
   return (
-    <div>
+    <div className='landing page'>
       <Navbar />
       <Banner />
       <Resume />

@@ -4,9 +4,11 @@ import { Navbar } from '../components/Navbar/Navbar';
 
 export const Works = () => {
   return (
-    <div className='works'>
+    <div>
       <Navbar />
-      <h2>This is the works page</h2>
+      <div className='works page'>
+        <h2>This is the works page</h2>
+      </div>
       <Footer />
     </div>
   );

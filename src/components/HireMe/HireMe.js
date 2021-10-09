@@ -13,7 +13,7 @@ export const HireMe = () => {
           If you want to build a website for your bussiness or even for your
           personal use, such as a blogspot, don't wait to long... and hire me ✔
         </p>
-        <Link to='contact'>Hire Me 📝</Link>
+        <Link to='contact'>Hire me! 📝</Link>
       </div>
     </div>
   );
