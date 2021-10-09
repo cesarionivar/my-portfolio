@@ -5,17 +5,25 @@ export const Footer = () => {
   return (
     <div className='footer'>
       <div className='footer__sociales'>
-        <a href='#'>
+        <a
+          href='https://github.com/cesarionivar'
+          target='__blank'
+          rel='noreferer'
+        >
           <i className='fab fa-github'></i>
         </a>
         <a
-          href='http://www.twitter.com/cesarionivar'
+          href='https://www.twitter.com/cesarionivar'
           target='__blank'
           rel='noreferer'
         >
           <i className='fab fa-twitter'></i>
         </a>
-        <a href='#'>
+        <a
+          href='https://www.linkedin.com/in/cesarionivar/'
+          target='__blank'
+          rel='noreferer'
+        >
           <i className='fab fa-linkedin'></i>
         </a>
       </div>

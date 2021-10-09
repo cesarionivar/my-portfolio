@@ -17,6 +17,12 @@ body {
 }
 
 
+/* About page */
+.about {
+  min-height: 100vh;
+}
+
+
 /* ==== 404 Page ==== */
 .noMatch {
   display: flex;
