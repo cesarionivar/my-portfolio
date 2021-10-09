@@ -1,0 +1,25 @@
+.hireMe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 70px 0px;
+}
+
+.hireMe__logo {
+  flex: 0.35;
+}
+
+.hireMe__logo img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.hireMe__info {
+  max-width: 400px;
+  margin-top: 70px;
+  align-self: flex-start;
+}
+
+.hireMe__info p {
+  font-size: 1.2rem;
+}

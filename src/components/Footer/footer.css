@@ -1,0 +1,39 @@
+.footer {
+  background-color: #2f2e41;
+  color: white;
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer__sociales {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer__sociales a  {
+  font-size: 1.5rem;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer__sociales a:hover {
+  color: #0098BC;
+}
+
+.footer__info {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.fa-heart {
+  color: #0098BC;
+}
+
+.fa-react {
+  font-size: 14px;
+}

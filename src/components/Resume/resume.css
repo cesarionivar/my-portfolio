@@ -1,0 +1,37 @@
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  font-weight: lighter;
+  margin-top: 100px;
+}
+
+.resume a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px solid #ffb300;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: all 0.4s ease-in;
+  background-color: #ffb300b9;
+}
+
+.resume a:hover {
+  background-color: unset;
+  border: 2px solid black;
+}
+
+.resume__works {
+  flex: 0.5;
+  border-right: 1px solid black;
+}
+
+.resume__document {
+  flex: 0.5;
+}
