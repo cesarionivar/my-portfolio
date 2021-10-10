@@ -14,8 +14,8 @@ export const Navbar = () => {
       <div className='menu'>
         <ul>
           <li>
-            <NavLink to='/works' activeClassName='active'>
-              Works
+            <NavLink to='/portfolio' activeClassName='active'>
+              Portfolio
             </NavLink>
           </li>
           <li>

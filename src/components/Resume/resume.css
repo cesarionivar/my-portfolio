@@ -23,9 +23,9 @@
 }
 
 .resume a:hover {
-  background-color: unset;
-  border: 2px solid black;
-  color: #006eff;
+  border: 1px solid white;
+  background-color: #006eff;
+  color: white;
 }
 
 .resume__works {
@@ -35,4 +35,27 @@
 
 .resume__document {
   flex: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+
+  .resume {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 10px;
+  }
+  
+  .resume h2 {
+    font-size: 1rem;
+
+  }
+  .resume__works {
+    border: none;
+  }
+
+  .resume a {
+    font-size: 0.8rem;
+    padding: 10px 15px;
+  }
+
 }

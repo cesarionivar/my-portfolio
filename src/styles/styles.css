@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;1,700&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;
@@ -17,11 +21,23 @@ body {
 }
 
 
-/* About page */
+/* === PAGES === */
 .page {
   min-height: 100vh;
 }
 
+/* Contact page */
+.page__title {
+  text-align: center;
+  font-size: 2rem;
+  color: #0098bc;
+}
+
+.page__title::after {
+  content: '__';
+  display: block;
+  margin-top: -35px;
+}
 
 /* ==== 404 Page ==== */
 .noMatch {
@@ -74,3 +90,5 @@ body {
     font-size: 1rem;
   }
 }
+
+/* TODO: Make the website responsive including the menu, creating a hamburger menu  */

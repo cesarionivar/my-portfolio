@@ -28,8 +28,8 @@ export const Footer = () => {
         </a>
       </div>
       <p className='footer__info'>
-        Made with <i class='fas fa-heart'></i> and React{' '}
-        <i class='fab fa-react'></i>
+        Made with <i className='fas fa-heart'></i> and React{' '}
+        <i className='fab fa-react'></i>
       </p>
       <p className='footer__place'>By Cesario Nivar in Santo Domingo</p>
     </div>

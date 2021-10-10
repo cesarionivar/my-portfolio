@@ -8,7 +8,7 @@ export const Banner = () => {
       <div className='banner'>
         <img src='/img/greet.png' alt='Welcome' className='welcome-img' />
         <br />
-        <h2 class='title'>{`< I'm a Software Developer />`}</h2>
+        <h2 className='title'>{`< I'm a Software Developer />`}</h2>
         <p className='description'>
           Passionate about technologies and especially into programming 👨🏽‍💻.
         </p>

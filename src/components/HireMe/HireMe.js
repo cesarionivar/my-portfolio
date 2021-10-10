@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './hireMe.css';
+import { goTop } from '../../helpers/goTop';
 
 export const HireMe = () => {
   return (
@@ -13,7 +14,9 @@ export const HireMe = () => {
           If you want to build a website for your bussiness or even for your
           personal use, such as a blogspot, don't wait to long... and hire me ✔
         </p>
-        <Link to='contact'>Hire me! 📝</Link>
+        <Link to='contact' onClick={goTop}>
+          Hire me! 📝
+        </Link>
       </div>
     </div>
   );

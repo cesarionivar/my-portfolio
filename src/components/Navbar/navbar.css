@@ -45,3 +45,38 @@
 .active {
   background-color: #ffb3009a;
 }
+
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: block;
+    text-align: center;
+  }
+
+  .menu ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu ul li {
+    font-size: 1rem;
+  }
+
+  .menu ul li:last-child a {
+    border: none;
+    border-bottom: 2px solid #ffb3009a;
+  }
+  
+  .menu ul li a {
+    border-radius: 0px;
+    border-bottom: 2px solid #ffb3009a;
+  }
+
+}
+
+@media screen and (max-width: 279px) {
+  .logo {
+    height: 40px;
+  }
+
+}

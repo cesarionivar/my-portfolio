@@ -15,14 +15,14 @@
   padding: 10px;
 }
 
-.footer__sociales a  {
+.footer__sociales a {
   font-size: 1.5rem;
   color: white;
   transition: all 0.3s ease-in-out;
 }
 
 .footer__sociales a:hover {
-  color: #0098BC;
+  color: #0098bc;
 }
 
 .footer__info {
@@ -31,9 +31,22 @@
 }
 
 .fa-heart {
-  color: #0098BC;
+  color: #0098bc;
 }
 
 .fa-react {
   font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__info {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 280px) {
+  
+  .footer__info {
+    font-size: 0.8rem;
+  }
+
 }

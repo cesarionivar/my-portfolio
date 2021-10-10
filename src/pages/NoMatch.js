@@ -7,7 +7,7 @@ export const NoMatch = () => {
       <img src='/img/NoMatch.png' alt='No Match' />
       <h2>Error 404, resource not found!!!</h2>
       <Link to='/' className='btn-back'>
-        Go back &nbsp;<i class='fas fa-undo'></i>
+        Go back &nbsp;<i className='fas fa-undo'></i>
       </Link>
     </div>
   );

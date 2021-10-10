@@ -6,8 +6,9 @@ export const Contact = () => {
   return (
     <div>
       <Navbar />
-      <h2>This is the contact page</h2>
-      <div className='contact page'></div>
+      <div className='contact page'>
+        <h2 className='page__title'>Contact</h2>
+      </div>
       <Footer />
     </div>
   );
