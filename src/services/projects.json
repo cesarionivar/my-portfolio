@@ -1,12 +1,39 @@
 {
   "projects": [
     {
-      "id": "dsasdasd",
+      "id": "whatsapp-clone",
       "name": "Whatsapp Clone",
-      "description": "Built this clone with react, context API, firebase",
+      "description": "This clone was built with react, context API, firestore, auth firebase",
       "imgUrl": "",
-      "githubUrl": "",
-      "previewUrl": ""
+      "previewUrl": "https://whatsapp-clone-bd13a.web.app/"
+    },
+    {
+      "id": "jokes-app",
+      "name": "Jokes App",
+      "description": "Simple Jokes Generator App, consuming the icanhazdadjokes API",
+      "imgUrl": "",
+      "previewUrl": "https://optimistic-bose-78e718.netlify.app/"
+    },
+    {
+      "id": "slack-clone",
+      "name": "Slack Clone",
+      "description": "Built with diferents technologies react, context API, firebase, firestore",
+      "imgUrl": "",
+      "previewUrl": "https://slack-clone-52a09.web.app/"
+    },
+    {
+      "id": "google-clone",
+      "name": "Google Clone",
+      "description": "Google clone with react, and consuming Google Search API",
+      "imgUrl": "",
+      "previewUrl": "https://clone-c8790.web.app/"
+    },
+    {
+      "id": "countdown",
+      "name": "Countdown App",
+      "description": "Countdown challenge app by frontend mentor using vanilla javascript",
+      "imgUrl": "",
+      "previewUrl": "https://clone-c8790.web.app/"
     }
   ]
 }
