@@ -1,0 +1,12 @@
+{
+  "projects": [
+    {
+      "id": "dsasdasd",
+      "name": "Whatsapp Clone",
+      "description": "Built this clone with react, context API, firebase",
+      "imgUrl": "",
+      "githubUrl": "",
+      "previewUrl": ""
+    }
+  ]
+}
