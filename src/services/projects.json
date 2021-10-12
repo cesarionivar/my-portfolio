@@ -4,42 +4,42 @@
       "id": "whatsapp-clone",
       "name": "Whatsapp Clone",
       "description": "This clone was built with react, context API, firestore, auth firebase",
-      "imgUrl": "",
+      "imgUrl": "https://raw.githubusercontent.com/cesarionivar/public-resources-online/main/images/projects/Whatsapp-clone.png",
       "previewUrl": "https://whatsapp-clone-bd13a.web.app/"
     },
     {
       "id": "jokes-app",
       "name": "Jokes App",
       "description": "Simple Jokes Generator App, consuming the icanhazdadjokes API",
-      "imgUrl": "",
+      "imgUrl": "https://raw.githubusercontent.com/cesarionivar/public-resources-online/main/images/projects/jokes-app.png",
       "previewUrl": "https://optimistic-bose-78e718.netlify.app/"
     },
     {
       "id": "slack-clone",
       "name": "Slack Clone",
       "description": "Built with diferents technologies react, context API, firebase, firestore",
-      "imgUrl": "",
+      "imgUrl": "https://raw.githubusercontent.com/cesarionivar/public-resources-online/main/images/projects/slack-clone.png",
       "previewUrl": "https://slack-clone-52a09.web.app/"
     },
     {
       "id": "google-clone",
       "name": "Google Clone",
       "description": "Google clone with react, and consuming Google Search API",
-      "imgUrl": "",
+      "imgUrl": "https://raw.githubusercontent.com/cesarionivar/public-resources-online/main/images/projects/google-clone.png",
       "previewUrl": "https://clone-c8790.web.app/"
     },
     {
       "id": "countdown",
       "name": "Countdown App",
       "description": "Countdown app using vanilla javascript",
-      "imgUrl": "",
+      "imgUrl": "https://raw.githubusercontent.com/cesarionivar/public-resources-online/main/images/projects/countdown.png",
       "previewUrl": "https://summercountdown.netlify.app/"
     },
     {
       "id": "random-user",
       "name": "Random User App",
       "description": "Random user app generator using vanilla javascript and webpack for module bundle",
-      "imgUrl": "",
+      "imgUrl": "https://raw.githubusercontent.com/cesarionivar/public-resources-online/main/images/projects/random-user.png",
       "previewUrl": "https://inspiring-franklin-bd3c18.netlify.app/"
     }
   ]
