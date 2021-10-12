@@ -31,9 +31,16 @@
     {
       "id": "countdown",
       "name": "Countdown App",
-      "description": "Countdown challenge app by frontend mentor using vanilla javascript",
+      "description": "Countdown app using vanilla javascript",
       "imgUrl": "",
-      "previewUrl": "https://clone-c8790.web.app/"
+      "previewUrl": "https://summercountdown.netlify.app/"
+    },
+    {
+      "id": "random-user",
+      "name": "Random User App",
+      "description": "Random user app generator using vanilla javascript and webpack for module bundle",
+      "imgUrl": "",
+      "previewUrl": "https://inspiring-franklin-bd3c18.netlify.app/"
     }
   ]
 }
