@@ -9,7 +9,7 @@ export const Contact = () => {
       <div className='contact page'>
         <h2 className='page__title'>Contact</h2>
         <div className='contactForm__container'>
-          <form action='/success' name='Contact' method='POST'>
+          <form action='/success.html' name='Contact' method='POST'>
             <input type='hidden' name='form-name' value='contact' />
             <div className='formControl sender-data'>
               <input name='name' type='text' placeholder='Full name' required />
