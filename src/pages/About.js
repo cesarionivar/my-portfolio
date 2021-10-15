@@ -15,10 +15,12 @@ export const About = () => {
             <p>
               Hello! My name is <b>Cesario Nivar</b>, I am a technology-loving,
               computer and systems engineer, I have experience and skills in web
-              development, sql and no-sql databases, and also in Data Analysis
-              and Business Intelligence using tools such as Microsoft Excel and
-              Power BI, visit the following link to vist part of the works that
-              I haved made in{' '}
+              development (html, css, sass, javascript, webpack, react, node,
+              php), sql (mariadb, mysql, sql server) and no-sql (mongodb,
+              firestore) databases, and also in Data Analysis and Business
+              Intelligence using tools such as Microsoft Excel and Power BI,
+              visit the following link to vist part of the works that I haved
+              made in{' '}
               <a
                 href='https://powerbicesarionivar.netlify.app/'
                 target='_black'
@@ -26,6 +28,7 @@ export const About = () => {
               >
                 Power BI
               </a>
+              .
             </p>
             <p>
               I am bilingual, I speak spanish and english fluently. I studied

@@ -23,7 +23,7 @@ body {
 
 /* === PAGES === */
 .page {
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 /* PORFOLIO */
@@ -84,6 +84,70 @@ body {
 }
 
 /* Contact page */
+.contactForm__container {
+  /* background-color: white; */
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.contactForm__container > form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formControl {
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.formControl > input,
+.formControl > textarea  {
+  font-family: sans-serif, Helvetica;
+  font-size: 1rem;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid lightgray;
+}
+
+.formControl > input:focus,
+.formControl > textarea:focus {
+  outline: 1px solid #0098BC;
+
+} 
+
+.formControl > textarea  {
+  min-height: 200px;
+  resize: none;
+}
+
+.formControl > button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0098BC;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.formControl > button:hover {
+  background-color: #07728a;
+}
+
+@media only screen and (min-width: 768px) {
+  .formControl.sender-data {
+    flex-direction: row;
+  }
+}
+
+
+/* General */
 .page__title {
   text-align: center;
   font-size: 2rem;

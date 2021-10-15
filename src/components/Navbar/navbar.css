@@ -34,10 +34,6 @@
   transition: all .3s ease-in-out;
 }
 
-.menu ul li:last-child a {
-  border: 2px solid #ffb3009a;
-}
-
 .menu ul li:hover a {
   background-color: #ffb3009a;
 }
