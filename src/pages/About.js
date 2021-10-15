@@ -20,7 +20,7 @@ export const About = () => {
               firestore) databases, and also in Data Analysis and Business
               Intelligence using tools such as Microsoft Excel and Power BI,
               visit the following link to vist part of the works that I haved
-              made in{' '}
+              made in &nbsp;
               <a
                 href='https://powerbicesarionivar.netlify.app/'
                 target='_black'
