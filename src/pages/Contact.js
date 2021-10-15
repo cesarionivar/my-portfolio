@@ -9,7 +9,7 @@ export const Contact = () => {
       <div className='contact page'>
         <h2 className='page__title'>Contact</h2>
         <div className='contactForm__container'>
-          <form name='Contact' method='POST' data-netlify='true'>
+          <form name='Contact' method='POST' netlify>
             <div className='formControl sender-data'>
               <input name='name' type='text' placeholder='Full name' required />
               <input type='text' placeholder='Email' required />
