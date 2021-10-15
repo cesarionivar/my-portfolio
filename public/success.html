@@ -15,12 +15,12 @@
     <title>Cesario Nivar</title>
   </head>
   <body>
-    <form action='/success.html' name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <input name='name' type='text'  />
-      <input name='email' type='text' />
-      <textarea name='message'></textarea>
-    </form>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div className='noMatch'>
+      <img src='/img/received.png' alt='Message Received' />
+      <h2>Your message has been received successfully!!!</h2>
+      <a href='/' className='btn-back'>
+        Return home &nbsp;<i className='fas fa-home'></i>
+      </a>
+    </div>
   </body>
 </html>
