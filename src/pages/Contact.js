@@ -13,7 +13,7 @@ export const Contact = () => {
             <input type='hidden' name='form-name' value='contact' />
             <div className='formControl sender-data'>
               <input name='name' type='text' placeholder='Full name' required />
-              <input type='text' placeholder='Email' required />
+              <input name='email' type='text' placeholder='Email' required />
             </div>
             <div className='formControl'>
               <textarea
