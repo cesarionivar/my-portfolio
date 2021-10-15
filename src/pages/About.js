@@ -19,8 +19,8 @@ export const About = () => {
               php), sql (mariadb, mysql, sql server) and no-sql (mongodb,
               firestore) databases, and also in Data Analysis and Business
               Intelligence using tools such as Microsoft Excel and Power BI,
-              visit the following link to vist part of the works that I haved
-              made in &nbsp;
+              visit the following link to vist part of the works that I had made
+              in &nbsp;
               <a
                 href='https://powerbicesarionivar.netlify.app/'
                 target='_black'
