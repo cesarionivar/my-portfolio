@@ -6,7 +6,6 @@ import { Portfolio } from '../pages/Portfolio';
 import { About } from '../pages/About';
 import { Contact } from '../pages/Contact';
 import { NoMatch } from '../pages/NoMatch';
-import { Success } from '../pages/Success';
 
 export const AppRouter = () => {
   return (
@@ -17,7 +16,6 @@ export const AppRouter = () => {
           <Route exact path='/portfolio' component={Portfolio} />
           <Route exact path='/about' component={About} />
           <Route exact path='/contact' component={Contact} />
-          <Route exact path='/success' component={Success} />
           <Route path='*' component={NoMatch} />
         </Switch>
       </div>

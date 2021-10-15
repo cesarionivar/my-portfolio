@@ -13,9 +13,62 @@
     <!-- Fonawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
     <title>Cesario Nivar</title>
+    <style>
+      .success {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .success img {
+        width: 400px;
+      }
+
+      .success h2 {
+        font-size: 2rem;
+        margin-top: 1rem;
+        text-align: center;
+        color: #272b2b;
+      }
+
+      .btn-back {
+        display: inline-block;
+        text-decoration: none;
+        padding: 1rem;
+        background-color: #0098BC;
+        border-radius: 30px;
+        color: white;
+        margin-top: 2rem;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+      }
+
+      .btn-back:hover {
+        background-color: #0099bcce;
+      }
+
+      @media only screen and (max-width: 450px) {
+        .success img {
+          width: 200px;
+        }
+
+        .success h2 {
+          font-size: 1.2rem;
+        }
+
+        .btn-back {
+          font-size: 1rem;
+        }
+      }
+
+    </style>
   </head>
   <body>
-    <div className='noMatch'>
+    <div className='success'>
       <img src='/img/received.png' alt='Message Received' />
       <h2>Your message has been received successfully!!!</h2>
       <a href='/' className='btn-back'>
