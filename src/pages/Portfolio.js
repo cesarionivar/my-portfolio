@@ -7,7 +7,7 @@ export const Portfolio = () => {
   return (
     <div>
       <Navbar />
-      <div className='works page'>
+      <div className='works'>
         <h2 className='page__title'>Portfolio</h2>
         <Projects />
       </div>

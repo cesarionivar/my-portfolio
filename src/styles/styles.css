@@ -36,6 +36,53 @@ body {
 }
 
 
+/* About page */
+.about__me {
+  padding: 20px;
+  max-width: 1300px;
+  margin: 20px auto;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.about__me > img  {
+  width: 95%;
+  height: 100%;
+}
+
+.about__details > p {
+  line-height: 1.5;
+  font-family:  sans-serif;
+  padding: 10px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+  .about__me {
+    display: block;
+  }
+
+  .about__me > img {
+    width: 60%;
+    height: 60%;
+    float: left;
+  }
+
+  .about__details > p {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .about__me > img {
+    width: 40%;
+    height: 40%;
+  }
+  
+}
+
 /* Contact page */
 .page__title {
   text-align: center;
@@ -100,5 +147,3 @@ body {
     font-size: 1rem;
   }
 }
-
-/* TODO: Make the website responsive including the menu, creating a hamburger menu  */
