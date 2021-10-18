@@ -8,11 +8,11 @@
       "previewUrl": "https://whatsapp-clone-bd13a.web.app/"
     },
     {
-      "id": "jokes-app",
-      "name": "Jokes App",
-      "description": "Simple Jokes Generator App, consuming the icanhazdadjokes API",
-      "imgUrl": "https://raw.githubusercontent.com/cesarionivar/public-resources-online/main/images/projects/jokes-app.png",
-      "previewUrl": "https://optimistic-bose-78e718.netlify.app/"
+      "id": "weather-app",
+      "name": "Weather App",
+      "description": "App built with react, context API, fetch and openweatherAPI for the weather data",
+      "imgUrl": "https://raw.githubusercontent.com/cesarionivar/public-resources-online/main/images/projects/weather-app.png",
+      "previewUrl": "https://mystifying-babbage-0e338f.netlify.app/"
     },
     {
       "id": "slack-clone",
@@ -41,6 +41,13 @@
       "description": "Random user app generator using vanilla javascript and webpack for module bundle",
       "imgUrl": "https://raw.githubusercontent.com/cesarionivar/public-resources-online/main/images/projects/random-user.png",
       "previewUrl": "https://inspiring-franklin-bd3c18.netlify.app/"
+    },
+    {
+      "id": "jokes-app",
+      "name": "Jokes App",
+      "description": "Simple Jokes Generator App, consuming the icanhazdadjokes API",
+      "imgUrl": "https://raw.githubusercontent.com/cesarionivar/public-resources-online/main/images/projects/jokes-app.png",
+      "previewUrl": "https://optimistic-bose-78e718.netlify.app/"
     }
   ]
 }
