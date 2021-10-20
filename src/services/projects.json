@@ -22,6 +22,13 @@
       "previewUrl": "https://slack-clone-52a09.web.app/"
     },
     {
+      "id": "devfinder",
+      "name": "devfinder",
+      "description": "Devfinder it's an app that search for github users throught their API, built with react",
+      "imgUrl": "https://raw.githubusercontent.com/cesarionivar/public-resources-online/main/images/projects/devfinder.png",
+      "previewUrl": "https://epic-mahavira-4acdf7.netlify.app/"
+    },
+    {
       "id": "google-clone",
       "name": "Google Clone",
       "description": "Google clone with react, and consuming Google Search API",
