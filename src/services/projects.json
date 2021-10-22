@@ -43,6 +43,13 @@
       "previewUrl": "https://summercountdown.netlify.app/"
     },
     {
+      "id": "chat-group",
+      "name": "Chat Group App",
+      "description": "(Google auth, firestore, hosting) of firebase, redux, react, sweetalert2",
+      "imgUrl": "https://raw.githubusercontent.com/cesarionivar/public-resources-online/main/images/projects/chat-group.png",
+      "previewUrl": "https://chat-group-886f8.web.app/"
+    },
+    {
       "id": "random-user",
       "name": "Random User App",
       "description": "Random user app generator using vanilla javascript and webpack for module bundle",
