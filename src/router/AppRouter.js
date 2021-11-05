@@ -1,11 +1,7 @@
 import React from 'react';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 
-import { Landing } from '../pages/Landing';
-import { Portfolio } from '../pages/Portfolio';
-import { About } from '../pages/About';
-import { Contact } from '../pages/Contact';
-import { NoMatch } from '../pages/NoMatch';
+import { Landing, Portfolio, About, Contact, NoMatch } from '../pages';
 
 export const AppRouter = () => {
   return (
